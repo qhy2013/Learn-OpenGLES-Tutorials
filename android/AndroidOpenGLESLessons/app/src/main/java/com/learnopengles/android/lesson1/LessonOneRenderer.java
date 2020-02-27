@@ -19,6 +19,12 @@ import javax.microedition.khronos.opengles.GL10;
  * https://blog.xujiaji.com/post/Learn-OpenGL-Lesson-One
  */
 public class LessonOneRenderer implements GLSurfaceView.Renderer {
+
+    /**
+     * 应用投影和相机视图: 把图形进行投影和变换，变成使用相机观看的实际物体一致（大小，距离）
+     * https://developer.android.google.cn/training/graphics/opengl/projection
+     * http://www.songho.ca/opengl/gl_transform.html
+     */
     /**
      * Store the model matrix. This matrix is used to move models from object space (where each model can be thought
      * of being located at the center of the universe) to world space.
